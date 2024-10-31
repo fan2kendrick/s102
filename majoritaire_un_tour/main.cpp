@@ -37,32 +37,34 @@ struct participant
     int choix;
 };
 
-void displayPlayers(vector<participant> tab)
+// Ces fonctions ont été utilisées pour le debug.
+
+void afficherParticipants(vector<participant> tableau)
 {
-    for (unsigned i = 0; i <= tab.size() - 1; ++i)
+    for (participant p : tableau)
     {
-        if (tab[i].nom == tab[i].prenom)
+        if (p.nom == p.prenom)
             continue;
-        cout << tab[i].nom << " " << tab[i].prenom << " " << tab[i].choix << endl;
+        cout << p.nom << " " << p.prenom << " " << p.choix << endl;
     }
 }
 
-void displayStringTable(vector<string> tab)
-{
-    for (int i = 0; i <= tab.size() - 1; ++i)
-    {
-        cout << tab[i] << endl;
-    }
-}
+// void afficherVecteurString(vector<string> tableau)
+// {
+//     for (unsigned i = 0; i <= tab.size() - 1; ++i)
+//     {
+//         cout << tab[i] << endl;
+//     }
+// }
 
-void afficherGlacesEtVotes(vector<string> glaces, vector<int> votes)
-{
-    cout << "Il y a " << glaces.size() << " glaces dispo :" << endl;
-    for (unsigned i = 0; i <= glaces.size() - 1; ++i)
-    {
-        cout << "- " << glaces[i] << " avec " << votes[i] << " votes. " << endl;
-    }
-}
+// void afficherGlacesEtVotes(vector<string> glaces, vector<int> votes)
+// {
+//     cout << "Il y a " << glaces.size() << " glaces dispo :" << endl;
+//     for (unsigned i = 0; i <= glaces.size() - 1; ++i)
+//     {
+//         cout << "- " << glaces[i] << " avec " << votes[i] << " votes. " << endl;
+//     }
+// }
 
 
 int main()
@@ -95,53 +97,12 @@ int main()
             gagnant = i; 
         }
     }
-
+    // afficherParticipants(listeParticipants);
+    // afficherGlacesEtVotes(glaces, choixDesGlaces);
 
     cout << "c'est la glace " << glaces[gagnant] << " qui a gagne" << endl;
 
     return 0;
 }
 
-// int main()
-// {
-//     vector <player> playerList;
-//     vector <string> creams;
-//     vector <int> creamsVoted = {0,0,0};
-
-//     for(int j = 0; j < 3; ++j)
-//     {
-//         creams.push_back(lireLigne());
-//     }
-
-//     for(int line = 0; line < 1/*16*/; ++line)
-//     {
-//         string lastName = lireLigne();
-//         string firstName = lireLigne();
-//         int choice = lireEntier();
-//         cout << lastName << firstName << choice << endl;
-//         playerList.push_back(player{lastName, firstName, choice});
-//     }
-
-//     // displayIntTable(creamsVoted);
-//     for(int j = 1; j <= creamsVoted.size(); ++j)
-//     {
-//         // cout << "Iteration j=" << j << endl;
-//         for(player i: playerList)
-//         {
-//             if(i.choice == 0 || i.choice != j) continue;
-//             creamsVoted[j-1] += 1;
-//             // cout << i.choice << endl;
-//         }
-//     }
-
-//     // displayIntTable(creamsVoted);
-//     // voteAlternatif(creamsVoted, creams, playerList.size());
-// }
-
-/*
-Progression actuelle :
-creams c'est les gouts dispo, et playerList c'est la sturcture des participants en tableau grace a la deuxiueme boucle.
-a faire : ajouter le systeme de quel choice correspond a quelle glace
-a faire : ajouter le systeme de vote a majorité
-a faire : trouver quelle glace a gagné a combien de voies, et qui a voté pour quoi (le lastNamebre)
-*/
+// ./a.out < entree1.txt > sortie_1.txt
