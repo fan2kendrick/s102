@@ -1,89 +1,67 @@
 //liste des glaces
+Mangue
 Choco
 Banane
-Mangue
 Fraises
 //voila la liste des joueurs
 //et encore un autre commentaire
 AROUSSI BENTATA
 Adam
-1
+4
 ACEMYAN DE OLIVEIRA
 Ewan
-<<<<<<< HEAD
 2
 ACH                     
 Sofia
-3
+1
 AGGAB
 Mohammed
 4
 AHAMED
 Nasser
-1
+4
 ALLARD
 Loan
 2
 AMARA
 Sinda
-3
+1
 AMROUNE
 Akim
 4
-=======
-1
-ACH                     
-Sofia
-1
-AGGAB
-Mohammed
-2
-AHAMED
-Nasser
-2
-ALLARD
-Loan
-3
-AMARA
-Sinda
-2
-AMROUNE
-Akim
-1
->>>>>>> 6350ce1 (ignorez remplir_fichier)
 ANTOINE
 Thomas
-1
+4
 ARBADJI
 Maxime
 2
 ARBOUZ
 Iklil
-3
+1
 ARFI
 Maxime
 4
 ARSENA
 Claire
-1
+4
 ATHERLY
 Evan
 2
 AZOUG
 Kylian
-3
+1
 BAGNIS
 Enzo
 4
 BARBERIS
 Alexis
-1
+4
 BAURENS - TORRENTE
 Valentin
 2
 BEN GADHA
 Imen
-3
+1
 BEN SALEM
 Mohamed
 4
@@ -95,7 +73,7 @@ Alexandre
 2
 BILLUART
 Florian
-3
+1
 BORSOTTO
 Antonin
 4
@@ -107,7 +85,7 @@ Mohamed-Amine
 2
 BOUDIA--THOMAS
 Akcyl
-3
+1
 BOUGHERARA
 Adam
 4
@@ -119,7 +97,7 @@ Heather
 2
 CANTOR
 Romain
-3
+1
 CELESTINE
 Samuel
 4
@@ -131,7 +109,7 @@ Kenji
 2
 CONTRUCCI     
 Lou
-3
+1
 CORDOVANA     
 Enzo
 4
@@ -143,7 +121,7 @@ Dimitri
 2
 CURNIER
 Anthony
-3
+1
 DAHMOUCHE
 Wissem
 4
@@ -155,7 +133,7 @@ Francois
 2
 DECAMPS
 Lou
-3
+1
 DEMANGE
 Martin
 4
@@ -167,7 +145,7 @@ Mohamed
 2
 DUMONT
 Aline
-3
+1
 EDELSTEIN
 William
 4
@@ -179,7 +157,7 @@ Samy
 2
 EL KASSOUF
 Simon
-3
+1
 FABRE
 Alexis
 4

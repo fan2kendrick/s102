@@ -39,6 +39,7 @@ struct participant
 
 // Ces fonctions ont été utilisées pour le debug.
 
+<<<<<<< HEAD
 void afficherParticipants(vector<participant> tableau)
 {
     for (participant p : tableau)
@@ -48,6 +49,17 @@ void afficherParticipants(vector<participant> tableau)
         cout << p.nom << " " << p.prenom << " " << p.choix << endl;
     }
 }
+=======
+// void afficherParticipants(vector<participant> tableau)
+// {
+//     for (participant p : tableau)
+//     {
+//         if (p.nom == p.prenom)
+//             continue;
+//         cout << p.nom << " " << p.prenom << " " << p.choix << endl;
+//     }
+// }
+>>>>>>> 6350ce1 (ignorez remplir_fichier)
 
 // void afficherVecteurString(vector<string> tableau)
 // {
@@ -98,7 +110,11 @@ int main()
         }
     }
     // afficherParticipants(listeParticipants);
+<<<<<<< HEAD
     // afficherGlacesEtVotes(glaces, choixDesGlaces);
+=======
+    // afficherGlacesEtVotes(glaces, choixDeesGlaces);
+>>>>>>> 6350ce1 (ignorez remplir_fichier)
 
     cout << "c'est la glace " << glaces[gagnant] << " qui a gagne" << endl;
 
